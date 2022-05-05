@@ -99,7 +99,6 @@ body{
 /* ---------------------HEADER-------------------------- */
 .header{
     background-color: #fff;
-    margin-bottom: -15px;
 }
 .header .container {
     display: flex;
@@ -168,7 +167,6 @@ body{
 /* ---------------------ORDER-------------------------- */
 .order{
     background-color: #2F303A;
-    margin-bottom: -15px;
 }
 .order-item{
     display: flex;
@@ -203,9 +201,6 @@ body{
     color: #FFFFFF;
 }
 /* -----------------------PRICES------------------------ */
-.prices{
-    margin-bottom: -29px;
-}
 .prices-list{
     display: flex;
 }
@@ -216,9 +211,6 @@ body{
     color: #212121;
 }
 /* -----------------------OCCUPATIANS------------------------ */
-.occupations{
-    margin-bottom: -29px;
-}
 .occupations-top-text{
     font-weight: 700;
     font-size: 14px;
@@ -250,7 +242,6 @@ body{
 /* ---------------------TEAM-------------------------- */
 .team{
     background-color: #F5F4FA;
-    margin-bottom: -15px;
 }
 .team-list{
     display: flex;
