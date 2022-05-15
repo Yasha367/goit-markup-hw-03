@@ -58,17 +58,15 @@ address {
 
 .container {
     width: 1200px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 .portfolio-container {
     width: 1200px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 .logo-text{
     font-family: 'Raleway';
@@ -99,7 +97,6 @@ body{
 /* ---------------------HEADER-------------------------- */
 .header{
     background-color: #fff;
-    margin-bottom: -15px;
 }
 .header .container {
     display: flex;
@@ -138,6 +135,10 @@ body{
     letter-spacing: 0.02em;
     color: var(--header-link);
 }
+.header-logo-list{
+    display: flex;
+    align-items: center;
+}
 .header-logo {
     margin-right: 90px;
 }
@@ -150,9 +151,6 @@ body{
 .header-item:not(:last-child) {
     margin-right: 40px;
 }
-.header-item:last-child {
-    margin-right: 331px;
-}
 .header-contacts{
     font-weight: 500;
     font-size: 14px;
@@ -161,14 +159,19 @@ body{
     color: var(--header-contacts);
     margin-left: 20px;
 }
-
+.header-content{
+    margin-left: auto;
+}
 .header-link:not(:last-child) {
     margin-right: 50px;
   }
 /* ---------------------ORDER-------------------------- */
 .order{
     background-color: #2F303A;
-    margin-bottom: -15px;
+}
+.order-list{
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .order-item{
     display: flex;
@@ -203,9 +206,6 @@ body{
     color: #FFFFFF;
 }
 /* -----------------------PRICES------------------------ */
-.prices{
-    margin-bottom: -29px;
-}
 .prices-list{
     display: flex;
 }
@@ -216,9 +216,6 @@ body{
     color: #212121;
 }
 /* -----------------------OCCUPATIANS------------------------ */
-.occupations{
-    margin-bottom: -29px;
-}
 .occupations-top-text{
     font-weight: 700;
     font-size: 14px;
@@ -250,7 +247,6 @@ body{
 /* ---------------------TEAM-------------------------- */
 .team{
     background-color: #F5F4FA;
-    margin-bottom: -15px;
 }
 .team-list{
     display: flex;
@@ -399,7 +395,7 @@ body{
     border-radius: 4px;
     border: 0;
 }
-/*---------------------GALLERY-------------------------- */
+/* ---------------------GALLERY-------------------------- */
 .gallery-top-text{
     font-weight: 700;
     font-size: 18px;
