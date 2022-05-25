@@ -168,10 +168,14 @@ body{
 /* ---------------------ORDER-------------------------- */
 .order{
     background-color: #2F303A;
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
 }
 .order-list{
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 .order-item{
     display: flex;
@@ -181,8 +185,11 @@ body{
 .order-btn{
     font-family: 'Roboto', sans-serif;
     background: #2196F3;
+    width: 180px;
+    height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin-left: 480px;
 }
 .order-title{
     font-weight: 900;
@@ -191,6 +198,7 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-bottom: 120px;
 
     color: #FFFFFF;
 }
@@ -208,6 +216,7 @@ body{
 /* -----------------------PRICES------------------------ */
 .prices-list{
     display: flex;
+    margin-bottom: 95px;
 }
 .prices-item:not(:last-child) {
     margin-right: 30px;
@@ -216,6 +225,9 @@ body{
     color: #212121;
 }
 /* -----------------------OCCUPATIANS------------------------ */
+.occupations{
+    margin-bottom: 95px;
+}
 .occupations-top-text{
     font-weight: 700;
     font-size: 14px;
@@ -247,6 +259,7 @@ body{
 /* ---------------------TEAM-------------------------- */
 .team{
     background-color: #F5F4FA;
+    margin-bottom: 95px;
 }
 .team-list{
     display: flex;
