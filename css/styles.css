@@ -168,14 +168,6 @@ body{
 /* ---------------------ORDER-------------------------- */
 .order{
     background-color: #2F303A;
-    display: flex;
-    align-items: center;
-    margin-bottom: 95px;
-}
-.order-list{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
 }
 .order-item{
     display: flex;
@@ -260,6 +252,7 @@ body{
 .team{
     background-color: #F5F4FA;
     margin-bottom: 95px;
+
 }
 .team-list{
     display: flex;
