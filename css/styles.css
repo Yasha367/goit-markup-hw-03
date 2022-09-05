@@ -190,8 +190,10 @@ body{
     align-items: center;
 }
 .order-title{
-    /* height: 696px; */
-    margin-left: auto;
+    height: 120px;
+    width: 696px;
+    margin-left: 242px;
+    /* margin-right: 452px; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -331,6 +333,9 @@ body{
 }
 .header{
     border-bottom: #212121;
+}
+.header-item-tel:not(:last-child) {
+    margin-left: 250px;
 }
 /* ----------------MAIN----------------------------------------- */
 .main-two{
