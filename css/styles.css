@@ -453,6 +453,7 @@ body{
 }
 .footer-list{
     margin-top: 20px;
+    display: block;
 }
 .foter-connect{
     margin-left: 70px;
