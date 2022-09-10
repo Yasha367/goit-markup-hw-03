@@ -107,8 +107,10 @@ body{
 .header-item:not(:last-child){
     margin-right: 50px;
 }
-.logo-header{
-    margin-right: 30px;
+.logo-first{
+    margin-right: 93px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .header-item-contact{
     display: flex;
@@ -132,6 +134,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--leading-page);
+    display: block;
 }
 .header-link{
     padding-top: 32px;
@@ -141,11 +144,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-link);
-}
-.header-logo{
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    display: block;
 }
 .logo-first{
     color: var(--logo-title-first);
@@ -157,8 +156,6 @@ body{
     display: flex;
     justify-content: center;
     margin-left: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .header-item-contact:not(:last-child){
     margin-right: 50px;
@@ -177,6 +174,8 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-contacts);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-tel{
     font-weight: 500;
@@ -184,6 +183,8 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-contacts);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 /* ---------------------HERO-------------------------- */
 .hero{
@@ -203,7 +204,7 @@ body{
 .hero-btn{
     font-family: 'Roboto', sans-serif;
     background: #2196F3;
-    width: 180px;
+    width: 216px;
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -218,6 +219,7 @@ body{
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    padding: 10px 31px;
 }
 .hero-title{
     max-width: 696px;
@@ -257,11 +259,14 @@ body{
     display: flex;
     gap: 30px;
 }
+.prices-item{
+    flex-basis: calc(100%-3*30);
+}
 .prices-top-text{
     color: #212121;
     margin-bottom: 10px;
     display: flex;
-    flex-basis: calc(100%-3*30);
+    text-transform: uppercase;
 }
 /* -----------------------OCCUPATIANS------------------------ */
 .occupations{
@@ -423,10 +428,6 @@ body{
     display: flex;
 }
 
-.footer-logo-item{
-    margin-bottom: 20px;
-    width: 145px;
-}
 .footer-logo-second{
     color: #fff;
 }
@@ -449,6 +450,9 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-list{
+    margin-top: 20px;
 }
 .foter-connect{
     margin-left: 70px;
@@ -476,12 +480,13 @@ body{
     align-items: center;
     justify-content: center;
 }
-.foter-soc-icon{
-    fill: #FFFFFF;
-}
 .foter-soc-link:hover, 
 .foter-soc-link:focus{
     background-color: #2196F3;
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: #2196F3;
 }
 /* ---------------------END-MAIN-SITEBAR-------------------------- */
 /* ---------------------PORTFOLIO-------------------------- */
@@ -496,6 +501,9 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--leading-page);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-portfolio .container{
     display: flex;
@@ -555,16 +563,16 @@ body{
     flex-basis: auto;
 }
 .portfolio-text{
-    padding: 20px 24px 20px 24px;
-    border-top: 0;
+    padding: 20px 24px;
+    
     border: 1px solid#EEEEEE;
+    border-top: 0;
 }
 .gallery-text{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color:#757575;
-    padding-left: 24px;
 }
 .gallery-list{
     display: flex;
